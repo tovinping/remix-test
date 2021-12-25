@@ -1,5 +1,4 @@
 import {Link} from 'remix'
-import type { LinksFunction } from "remix";
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
@@ -30,6 +29,9 @@ export default function Index() {
         </li>
         <li>
           <Link to={'/jokes'}>Jokes</Link>
+        </li>
+        <li>
+          <Link to={'/test'}>Test</Link>
         </li>
       </ul>
     </div>
